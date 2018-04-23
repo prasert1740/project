@@ -13,7 +13,7 @@
       /* Create a Parallax Effect */
       .bgimg-1, .bgimg-2, .bgimg-3 {background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
       /* First image (Logo. Full height) */
-      .bgimg-1 {background-image: url("C:/Users/Asus/Desktop/homepage/images/bg1.jpg");min-height: 100%;}
+      .bgimg-1 {background-image: url("images/bg1.jpg");min-height: 100%;}
       /* Second image (Portfolio) */
       .bgimg-2 {background-image: url("/w3images/parallax2.jpg");min-height: 400px;}
       /* Third image (Contact) */
@@ -63,9 +63,9 @@
   <p class="w3-center"><em>Diary</em></p>
   <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-          <img src="before.jpg" alt="before" style="width:100%">
+          <img src="images\head1.jpg" alt="before" style="width:100%">
 
-        <div class="w3-container">
+        <div class="w3-container" id="before">
           <center><h2>BEFORE</h2></center>
           <center><p class="w3-opacity">" ก่อนก้าวไปใช้ชีวิตในรั้วมหาวิทยาลัย "</p></center>
           <center><p> ถึงนิสิต นักศึกษา ไม่ว่าคุณจะรักหรือเกลียดสถานะของคุณในตอนนี้ เราคงปฏิเสธไม่ได้ว่าช่วงเวลาอุดมศึกษาเป็นช่วงเวลาที่พิเศษในชีวิต เป็นระยะหัวเลี้ยวหัวต่อที่จะส่งผลกับคุณก่อนเติบโตเป็นผู้ใหญ่ เป็นพื้นที่ให้คุณได้ลองผิดลองถูกเพื่อค้นหาตัวเอง และมันจะกลายเป็นความทรงจำที่มีความหมายกับคุณ  </p></center>
@@ -74,9 +74,9 @@
       </div>
     </div><div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-          <img src="begin.jpg" alt="begin" style="width:100%">
+          <img src="images\head2.jpg" alt="begin" style="width:100%">
 
-        <div class="w3-container">
+        <div class="w3-container" id="beginning">
           <center><h2>BEGINNING</h2></center>
           <center><p class="w3-opacity">" จุดเริ่มต้นชีวิตในรั้วมหาวิทยาลัย "</p></center >
           <center><p> หลายๆคนอาจจะคิดว่าการใช้ชีวิตในรั้วมหาวิทยาลัยนั้น ไม่ใช่เรื่องที่ง่ายเลย ถ้าไม่ได้ลองเข้าไปใช้ชีวิตจริงๆก็คงไม่รู้หรอกว่ามันจะยากหรือง่ายแค่ไหนกันแน่ เพราะกว่าจะจบ 4 ปีได้นั้น เราต้องเผชิญกับเหตุการณ์ต่างๆมากมายที่เข้ามาในช่วงเวลานี้ </p></center>
@@ -85,9 +85,9 @@
       </div>
     </div><div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-          <img src="become.jpg" alt="become" style="width:100%">
+          <img src="images\head3.jpg" alt="become" style="width:100%">
 
-        <div class="w3-container">
+        <div class="w3-container" id="become">
           <center><h2>BECOME</h2></center>
           <center><p class="w3-opacity">" ชีวิตในรั้วมหาวิทยาลัย "</p></center>
         <center>  <p> กลับกลายเป็นว่าชีวิตในรั้วมหาวิทยาลัย ถือว่าเป็นการเริ่มใหม่สำหรับการเรียนรู้อะไรหลายๆอย่าง การได้เรียนรู้ครั้งนี้ไม่เพียงแต่รู้วิชา แต่มีการเรียนรู้การใช้ชีวิต การรับน้อง การคบเพื่อน การมีคนรัก แสงสีวิลัย และอื่นๆอีกมากมาย </p></center>
@@ -103,7 +103,7 @@
   <h3 class="w3-center">My Group</h3>
     <div class="w3-second w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="C:\Users\Asus\Desktop\homepage\images\sert.jpg" alt="sert" style="width:100%">
+        <img src="images\sert.jpg" alt="sert" style="width:100%">
         <div class="w3-container">
           <h3>SERT</h3>
           <p class="w3-opacity">5910513023</p>
@@ -115,9 +115,9 @@
     </div>
     <div class="w3-second w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="C:\Users\Asus\Desktop\homepage\images\miew.jpg" alt="miew" style="width:100%">
+        <img src="images\miew.jpg" alt="mamiew" style="width:100%">
         <div class="w3-container">
-          <h3>MIEW</h3>
+          <h3>MA-MIEW</h3>
           <p class="w3-opacity">5910513067</p>
           <p>I am Panisara Rueangchuai.</p>
           <p>I'm majoring in Business Information System.</p>
@@ -134,37 +134,37 @@
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-      <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      <img src="images/1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+      <img src="images/2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+      <img src="images/9.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+      <img src="images/4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
     </div>
   </div>
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
-      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+      <img src="images/5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+      <img src="images/6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+      <img src="images/7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+      <img src="images/8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
     </div>
     <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
   </div>
@@ -179,15 +179,16 @@
   </div>
 </div>
 
-<!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">CONTACT</h3>
-  <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Prince of Songkla University<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: film_boontae@windowslive.com<br>
-      </div>
+  <!-- The Contact Section -->
+  <div class="w3-content w3-container w3-padding-64" id="contact">
+    <h3 class="w3-center">CONTACT</h3>
+  <div class="w3-row w3-padding-32">
+    <div class="w3-col m6 w3-large w3-margin-bottom">
+      <i class="fa fa-map-marker" style="width:30px"></i>Prince of Songkla University<br>
+      <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+      <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+    </div>
+    <div class="w3-col m6">
       <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
@@ -198,13 +199,13 @@
           </div>
         </div>
         <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
+        <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
       </form>
     </div>
   </div>
 </div>
+
+<!-- End Page Content -->
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
