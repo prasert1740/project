@@ -29,17 +29,22 @@
     <div class="w3-top w3-black">
       <div class="w3-bar" id="myNavbar">
         <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-        <a href="#home" class="w3-bar-item w3-button">HOME</a>
+        <a href="https://prasert1740.github.io/project/" class="w3-bar-item w3-button">HOME</a>
         <div class="w3-dropdown-hover">
-          <a href="#about"><button class="w3-button"><i class="fa fa-user"></i> ABOUT US</button></a>
+          <a href="https://prasert1740.github.io/project/#about"><button class="w3-button"><i class="fa fa-user"></i> ABOUT US</button></a>
           <div class="w3-dropdown-content w3-bar-block">
             <a href="diary1.html" class="w3-bar-item w3-button">BEFORE</a>
             <a href="diary2.html" class="w3-bar-item w3-button">BEGINNING</a>
             <a href="diary3.html" class="w3-bar-item w3-button">BECOME</a>
           </div>
         </div>
-        <a href="#portfolio" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTFOLIO</a>
-        <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+        <div class="w3-dropdown-hover">
+          <a href="https://prasert1740.github.io/project/#portfolio"><button class="w3-button"><i class="fa fa-th"></i> PORTFOLIO</button></a>
+          <div class="w3-dropdown-content w3-bar-block">
+            <a href="https://prasert1740.github.io/project/#my-activities" class="w3-bar-item w3-button">MY ACTIVITIES</a>
+          </div>
+        </div>
+        <a href="https://prasert1740.github.io/project/#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
         <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"><i class="fa fa-search"></i></a>
       </div>
     </div>
@@ -113,7 +118,7 @@
     <div class="w3-content w3-container w3-padding-64" id="portfolio">
         <h3 class="w3-center">My Group</h3>
         <div class="w3-col l6 s12">
-          <div class="100%" id="profile-sert">
+          <div class="100%">
             <div class="w3-card-1">
               <div class="w3-center"><img src="images\sert.jpg" alt="sert" style="width:97%"></div>
               <div class="w3-container">
@@ -129,7 +134,7 @@
           </div>
         </div>
         <div class="w3-col l6 s12">
-          <div class="100%" id="profile-ma-miew">
+          <div class="100%">
             <div class="w3-card-1">
               <div class="w3-center"><img src="images\miew.jpg" alt="mamiew" style="width:97%"></div>
               <div class="w3-container">
@@ -146,6 +151,7 @@
         </div>
     </div>
     </div>
+    <div id="my-activities">
     <h3 class="w3-center">MY ACTIVITIES</h3>
       <p class="w3-center"><em>กิจกรรมที่เคยเข้าร่วมตั้งแต่เข้ามหาวิทยาลัย.</em></p><br>
       <div class="w3-row-padding w3-center">
@@ -182,6 +188,7 @@
           <img src="images/m4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="miew4">
         </div>
       </div>
+    </div>
 
     <!-- Modal for full size images on click-->
     <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
